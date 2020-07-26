@@ -1,8 +1,0 @@
-com\journaldev\servlet\MyServlet.class
-com\journaldev\listener\MySessionAttributeListener.class
-com\journaldev\listener\AppContextListener.class
-com\journaldev\listener\MyServletRequestAttributeListener.class
-com\journaldev\listener\MySessionListener.class
-com\journaldev\listener\AppContextAttributeListener.class
-com\journaldev\db\DBConnectionManager.class
-com\journaldev\listener\MyServletRequestListener.class
