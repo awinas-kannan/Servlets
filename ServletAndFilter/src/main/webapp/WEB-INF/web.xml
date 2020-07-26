@@ -23,11 +23,9 @@
 
 	<!-- If we define webapp specific servlet filters in WAR's own web.xml, 
 		then the order of execution of the filters will be the same as the order 
-		in which they are defined in the web.xml. 
-	
-	Read this to know how it can  be done with @Webfilter annotation
-		
-https://stackoverflow.com/questions/6560969/how-to-define-servlet-filter-order-of-execution-using-annotations-in-war -->
+		in which they are defined in the web.xml. Read this to know how it can be 
+		done with @Webfilter annotation 
+		https://stackoverflow.com/questions/6560969/how-to-define-servlet-filter-order-of-execution-using-annotations-in-war -->
 	<filter>
 		<filter-name>RequestLoggingFilter</filter-name>
 		<filter-class>com.journaldev.servlet.RequestLoggingFilter</filter-class>
