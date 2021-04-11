@@ -28,7 +28,7 @@ public class MyServlet extends HttpServlet {
 		// requestAttributeListener
 		request.setAttribute("requestname", "awi");
 		request.getAttribute("name");
-		request.removeAttribute("name");
+		request.removeAttribute("requestname");
 
 		// SessionListner
 		HttpSession session = request.getSession();

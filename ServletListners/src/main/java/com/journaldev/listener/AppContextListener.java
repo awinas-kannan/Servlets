@@ -11,6 +11,7 @@ import com.journaldev.db.DBConnectionManager;
 public class AppContextListener implements ServletContextListener {
 
     public void contextInitialized(ServletContextEvent servletContextEvent) {
+    	System.out.println("Executed once");
     	ServletContext ctx = servletContextEvent.getServletContext();
     	
     	String url = ctx.getInitParameter("DBURL");
